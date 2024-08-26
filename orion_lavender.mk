@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -18,10 +18,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_WIFI_EXT := true
-AFTERLIFE_BUILD_TYPE := OFFICIAL
-AFTERLIFE_MAINTAINER := sweetbtrfly
+ORION_BUILD_TYPE := UNOFFICIAL
+ORION_MAINTAINER := PH8+
 
-PRODUCT_NAME := afterlife_lavender
+PRODUCT_NAME := orion_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
