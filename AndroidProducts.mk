@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_lavender.mk
+    $(LOCAL_DIR)/orion_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    afterlife_lavender-user \
-    afterlife_lavender-userdebug \
-    afterlife_lavender-eng
+    orion_lavender-user \
+    orion_lavender-userdebug \
+    orion_lavender-eng
